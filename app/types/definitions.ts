@@ -1,5 +1,3 @@
-import { LucideIcon } from "lucide-react"
-
 export type useCase = {
   slug: string
   name: string
@@ -10,10 +8,16 @@ export type useCase = {
   action: string
   image: string
   benefits: benefit[]
+  features: feature[]
 }
 
-export type benefit = {
+type benefit = {
   title: string
   description: string
-  icon: LucideIcon
+  icon: string
+}
+
+type feature = {
+  title: string
+  description: string
 }

@@ -119,14 +119,14 @@ export function MainBody() {
         <section className="w-full py-12 md:py-24 lg:py-32 border-t bg-green-200" id="contact">
           <div className="container mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Veja como você pode usar o Micro Loja no seu negócio</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Veja como você pode usar a Micro Loja no seu negócio</h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Venda produtos, serviços e ingressos sem precisar de maquininha de cartão ou site.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
               <Link
-                href="#"
+                href="/exemplos"
                 className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 prefetch={false}
               >
