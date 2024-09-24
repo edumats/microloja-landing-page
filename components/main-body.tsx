@@ -53,7 +53,7 @@ export function MainBody() {
                 <ul className="grid gap-6">
                   <li>
                     <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">A Micro Loja usa Mercado Pago</h3>
+                      <h3 className="text-xl font-bold">A Micro Loja usa Asaas</h3>
                       <p className="text-muted-foreground">
                         Comece a vender sem complicação e com toda a segurança para você e seus clientes
                       </p>
@@ -106,11 +106,11 @@ export function MainBody() {
                   </li>
                 </ul>
                 <Link
-                  href="#"
-                  className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                  href="/preco"
+                  className="inline-flex h-10 items-center justify-center rounded-md bg-orange-400 px-8 text-sm font-medium text-slate-800 shadow transition-colors hover:bg-orange-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                   prefetch={false}
                 >
-                  Tenho interesse!  
+                  Saiba mais 
                 </Link>
               </div>
             </div>
@@ -127,7 +127,7 @@ export function MainBody() {
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
               <Link
                 href="/exemplos"
-                className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                className="inline-flex h-10 items-center justify-center rounded-md bg-orange-400 px-8 text-sm font-medium text-slate-800 shadow transition-colors hover:bg-orange-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 prefetch={false}
               >
                 Veja como você pode usar a Micro Loja

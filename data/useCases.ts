@@ -17,13 +17,13 @@ export const useCases = [
         "icon": "Ticket"
       },
       {
-        "title": "Integração com planilhas do Google Sheets",
-        "description": "Controle as inscrições com códigos únicos para cada inscrito",
+        "title": "Controle a entrada dos participantes do evento",
+        "description": "Criamos um código único para cada inscrito para você fazer o controle durante o evento",
         "icon": "FileSpreadsheet"
       },
       {
         "title": "Venda produtos junto com as inscrições",
-        "description": "Aumente o faturamento vendendo produtos relacionados ao evento, como camisetas, acessórios e bonés",
+        "description": "Aumente o faturamento vendendo produtos relacionados ao evento, como camisetas, acessórios e bonés durante o processo de inscrição",
         "icon": "ShoppingBag"
       },
       {
@@ -38,27 +38,27 @@ export const useCases = [
       },
       {
         "title": "Livre-se de mensalidades",
-        "description": "Sem mensalidades. Você só pagará a nossa taxa ao realizar uma venda",
+        "description": "Sem mensalidades, sem planos anuais. Você só pagará a nossa taxa ao realizar uma venda",
         "icon": "CheckCircle2"
       }
     ],
     "features": [
       {
         "title": "Configuração Simples",
-        "description": "Configure o formulário de inscrição e comece a vender imediatamente"
+        "description": "Configure o formulário de inscrição e comece a vender já"
       },
       {
         "title": "Confirmações de e-mail inclusas",
-        "description": "Inscritos recebem e-mails automatizados durante todo o processo de compra"
+        "description": "Inscritos recebem e-mails automatizados durante o processo de compra"
       },
       {
-        "title": "Crie diversos formulários de inscrição",
-        "description": "Você pode criar formulários de compra para cada tipo de evento"
+        "title": "Crie formulários de inscrição para cada evento",
+        "description": "Você pode criar quantos formulários precisar, sem limite de visitas"
       },
       {
-        "title": "Crie diversos formulários de inscrição",
-        "description": "Você pode criar formulários de compra para cada tipo de evento"
-      }
+        "title": "Organizamos as inscrições para você",
+        "description": "Tenha todas informações sobre as inscrições em planilhas do Google Sheets"
+      },
     ]
   },
   {
@@ -90,6 +90,11 @@ export const useCases = [
         "title": "Zero mensalidade",
         "description": "Pague apenas quando vender suas aulas, sem custos fixos",
         "icon": "CheckCircle2"
+      },
+      {
+        "title": "Venda mensalidades para suas aulas",
+        "description": "Organize ",
+        "icon": "ShoppingBag"
       }
     ],
     "features": [
@@ -104,6 +109,10 @@ export const useCases = [
       {
         "title": "Gestão simples de alunos",
         "description": "Acompanhe o progresso dos alunos e gerencie informações diretamente nas planilhas"
+      },
+      {
+        "title": "Crie quantos formulários de venda precisar",
+        "description": "Você pode criar formulários de compra para cada tipo de aula"
       }
     ]
   },
@@ -118,13 +127,13 @@ export const useCases = [
     "image": "...",
     "benefits": [
       {
-        "title": "Facilite a venda de ingressos",
-        "description": "Permita que seus clientes comprem ingressos sem precisar de assistência",
+        "title": "Venda ingressos na Internet do jeito mais fácil",
+        "description": "Permita que seus clientes comprem ingressos sem precisar da sua ajuda",
         "icon": "Ticket"
       },
       {
         "title": "Código único para cada inscrito",
-        "description": "Cada inscrito receberá um código único, que poderá ser usado no controle da entrada",
+        "description": "Cada inscrito receberá um código único, que poderá ser usado no controle de entrada",
         "icon": "Users"
       },
       {
@@ -158,12 +167,12 @@ export const useCases = [
         "description": "Envie confirmações de compra para os participantes"
       },
       {
-        "title": "Personalização de ingressos",
-        "description": "Adicione informações personalizadas para cada evento"
+        "title": "Organizamos as inscrições para você",
+        "description": "Tenha todas informações sobre as inscrições em planilhas do Google Sheets"
       },
       {
         "title": "Crie quantos formulários precisar",
-        "description": "Crie formulários para cada evento"
+        "description": "Crie formulários para cada evento, sem limite de visitas ou de planilhas"
       }
     ]
   },
@@ -178,14 +187,14 @@ export const useCases = [
     "image": "...",
     "benefits": [
       {
-        "title": "Venda e receba pagamentos online",
+        "title": "Venda e receba pelos seus serviços",
         "description": "Simplifique a venda dos seus serviços criando formulários que aceitam pagamentos",
         "icon": "ShoppingCart"
       },
       {
-        "title": "Gestão de clientes e pedidos",
-        "description": "Acompanhe informações detalhadas dos clientes e dos serviços solicitados",
-        "icon": "Users"
+        "title": "Receba mais serviços facilitando a vida do seu cliente!",
+        "description": "Evite deixar seu cliente esperando uma resposta, permita que ele compre seus serviços a qualquer hora do dia com os nossos formulários que permitem receber pagamentos",
+        "icon": "Smile"
       },
       {
         "title": "Diversas formas de pagamento",
@@ -193,13 +202,13 @@ export const useCases = [
         "icon": "CreditCard"
       },
       {
-        "title": "Sem custos fixos",
+        "title": "Sem mensalidades",
         "description": "Você só paga quando realiza a venda de um serviços, não cobramos mensalidades",
         "icon": "CheckCircle2"
       },
       {
-        "title": "Tenha todas as informações importantes",
-        "description": "Tenha em mãos informações de quem solicitou o serviço, como endereço, horários e telefones de contato",
+        "title": "Peça todas as informações no momento da venda",
+        "description": "Evite perder tempo em chats, tenha informações importantes, como endereço, horários e telefones de contato quando o cliente te contrata",
         "icon": "Users"
       },
       {
@@ -210,16 +219,16 @@ export const useCases = [
     ],
     "features": [
       {
-        "title": "Configuração simples",
-        "description": "Comece a receber pedidos em minutos!"
+        "title": "Tenha um link exclusivo para receber serviços",
+        "description": "Tenha um link para o formulário de venda, compartilhe nas redes sociais para que seus clientes possam solicitar seus serviços a qualquer hora"
       },
       {
         "title": "E-mails automáticos",
-        "description": "Enviamos e-mails automáticos para seus clientes quando eles realizam a compra do serviço"
+        "description": "Enviamos e-mails automáticos para seus clientes quando eles solicitam e fazem o pagamento do serviço"
       },
       {
         "title": "Tenha todas as informações",
-        "description": "Monitore os pedidos e os detalhes dos serviços contratados em planilhas"
+        "description": "Tenha sempre em mãos os pedidos e os detalhes dos serviços contratados em planilhas do Google Sheets"
       },
       {
         "title": "Crie quantos formulários precisar",
@@ -253,8 +262,8 @@ export const useCases = [
         "icon": "CopyPlus"
       },
       {
-        "title": "Gestão de doadores",
-        "description": "Monitore informações dos doadores e valores recebidos diretamente no Google Sheets",
+        "title": "Não cobramos comissão em doações menores que R$21",
+        "description": "Muitas doações são de valores pequenos e a nossa comissão não será cobrada em doações menores que R$21",
         "icon": "Users"
       },
       {
@@ -271,7 +280,7 @@ export const useCases = [
     "features": [
       {
         "title": "Formulários personalizados",
-        "description": "Crie formulários específicos para diferentes campanhas de doação"
+        "description": "Crie quantos formulários precisar para diferentes campanhas de doação"
       },
       {
         "title": "E-mails automáticos",
@@ -309,7 +318,7 @@ export const useCases = [
       },
       {
         "title": "Gestão integrada de reservas",
-        "description": "Controle as reservas e pagamentos dos clientes na planilha do Google Sheets",
+        "description": "Acompanhe os pagamentos dos clientes na planilha do Google Sheets",
         "icon": "FileSpreadsheet"
       },
       {
@@ -321,7 +330,12 @@ export const useCases = [
         "title": "Sem mensalidades",
         "description": "Você só paga ao realizar uma venda, não cobramos mensalidades",
         "icon": "CheckCircle2"
-      }
+      },
+      {
+        "title": "Tenha um link exclusivo para receber pedidos",
+        "description": "Tenha um link para o formulário de vendas, compartilhe nas redes sociais para que seus clientes possam fazer os pedidos",
+        "icon": "ThumbsUp"
+      },
     ],
     "features": [
       {

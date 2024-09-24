@@ -53,7 +53,7 @@ export function SupportForm() {
                   required
                 />
               </div>
-              <Button className="w-full" type="submit">
+              <Button className="w-full bg-orange-400 hover:bg-orange-300 text-slate-800" type="submit">
                 Enviar ao suporte
               </Button>
             </form>

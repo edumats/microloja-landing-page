@@ -12,7 +12,7 @@ import {
 
 export function Navbar() {
   return (
-    <nav className="bg-green-400 border-b">
+    <nav className="bg-green-200 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
@@ -23,9 +23,9 @@ export function Navbar() {
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
             <NavLink href="/exemplos">Exemplos de uso</NavLink>
-            <NavLink href="/instalar">Como instalar</NavLink>
+            {/* <NavLink href="/instalar">Como instalar</NavLink> */}
             <NavLink href="/preco">Preço</NavLink>
-            <NavLink href="/contato">Contato</NavLink>
+            <NavLink href="/suporte">Fale Conosco</NavLink>
           </div>
           <div className="sm:hidden flex items-center">
             <Sheet>
@@ -38,9 +38,9 @@ export function Navbar() {
               <SheetContent side="right" className="bg-white">
                 <nav className="flex flex-col space-y-4 mt-4">
                   <NavLink href="/exemplos">Exemplos de uso</NavLink>
-                  <NavLink href="/instalar">Como instalar</NavLink>
+                  {/* <NavLink href="/instalar">Como instalar</NavLink> */}
                   <NavLink href="/preco">Preço</NavLink>
-                  <NavLink href="/contato">Contato</NavLink>
+                  <NavLink href="/suporte">Contato</NavLink>
                 </nav>
               </SheetContent>
             </Sheet>
