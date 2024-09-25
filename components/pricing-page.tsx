@@ -41,18 +41,22 @@ export function PricingPage() {
   const [totalAmount, setTotalAmount] = useState('')
   const [paymentMode, setPaymentMode] = useState('')
 
-  const asaasVariableComissions = {
-    'credit_card': 0.0299,
-    'debit_card': 0.0189,
-    'boleto': 0,
-    'pix': 0
+  type asaasComissions = {
+    [key: string]: number
   }
 
-  const asaasFixedComissions = {
-    'credit_card': 0.49,
-    'debit_card': 0.35,
-    'boleto': 0.99,
-    'pix': 1.99
+  const asaasVariableComissions: asaasComissions = {
+    credit_card: 0.0299,
+    debit_card: 0.0189,
+    boleto: 0,
+    pix: 0
+  }
+
+  const asaasFixedComissions: asaasComissions = {
+    credit_card: 0.49,
+    debit_card: 0.35,
+    boleto: 0.99,
+    pix: 1.99
   }
 
   // Below this value, no comission will be charged from customers. Value in BRL
